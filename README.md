@@ -1,14 +1,15 @@
 # RaVL: Discovering and Mitigating Spurious Correlations in Fine-Tuned Vision-Language Models
+[![arXiv](https://img.shields.io/badge/arXiv-2411.04097-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2411.04097)
 [![License](https://img.shields.io/github/license/stanford-aimi/ravl?style=for-the-badge)](LICENSE)
 
-This repository contains the official PyTorch implementation for RaVL: Discovering and Mitigating Spurious Correlations in Fine-Tuned Vision-Language Models (NeurIPS 2024).
+This repository contains the official PyTorch implementation for [RaVL: Discovering and Mitigating Spurious Correlations in Fine-Tuned Vision-Language Models](https://arxiv.org/abs/2411.04097) (NeurIPS 2024).
 
 ![Overview](assets/img.png "")
 
 ## 🧵 What is RaVL?
 Fine-tuned vision-language models (VLMs) often capture spurious correlations between image features and textual attributes, resulting in degraded zero-shot performance at test time. We introduce **RaVL**, which can analyze a VLM and identify specific image features that the model has learned to spurious correlate with a textual attribute. 
 
-For additional details, please refer to our paper, our [demo notebook](https://github.com/Stanford-AIMI/RaVL/blob/master/demo_mnist.ipynb), and the documentation below. 
+For additional details, please refer to our [paper](https://arxiv.org/abs/2411.04097), our [demo notebook](https://github.com/Stanford-AIMI/RaVL/blob/master/demo_mnist.ipynb), and the documentation below. 
 
 ## ⚡️ Installation
 Use the following commands to clone and install this repository. Confirm that PyTorch and torchvision are installed on your system.
