@@ -7,7 +7,7 @@ This repository contains the official PyTorch implementation for [RaVL: Discover
 ![Overview](assets/img.png "")
 
 ## 🧵 What is RaVL?
-Fine-tuned vision-language models (VLMs) often capture spurious correlations between image features and textual attributes, resulting in degraded zero-shot performance at test time. We introduce **RaVL**, which can analyze a VLM and identify specific image features that the model has learned to spurious correlate with a textual attribute. 
+Fine-tuned vision-language models (VLMs) often capture spurious correlations between image features and textual attributes, resulting in degraded zero-shot performance at test time. We introduce **RaVL**, which can analyze a VLM and identify specific image features that the model has learned to spuriously correlate with a textual attribute. 
 
 For additional details, please refer to our [paper](https://arxiv.org/abs/2411.04097), our [demo notebook](https://github.com/Stanford-AIMI/RaVL/blob/master/demo_mnist.ipynb), and the documentation below. 
 
